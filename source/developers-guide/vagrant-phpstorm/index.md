@@ -148,6 +148,15 @@ After you get the `"BUILD SUCCESSFUL"` message you can run the full build comman
 
     $ ant build-unit
   
+
+Download the test images and extract them:
+Go to the shopware home directory and download the test images:
+
+    wget -O test_images.zip http://releases.s3.shopware.com/test_images.zip
+    
+Unzip the files to the checkout directory:
+
+    unzip test_images.zip
 After the build is complete you can view your full installed Shopware under:
 
 [http://33.33.33.10/shopware](http://33.33.33.10/shopware)
@@ -159,3 +168,5 @@ Open the backend by adding a `/backend` to your default Shopware installation.
 
 * Default user: `demo`
 * Default pass: `demo`
+
+
